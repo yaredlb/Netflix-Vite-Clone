@@ -1,18 +1,18 @@
-.header__container{
+/* .header__container{
     position: sticky;
     top: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: hsl(0, 7%, 55%);
-    /* background-color: rgb(20, 20, 20); */
+    background-color: rgb(20, 20, 20);
     background-color: transparent;
     height: 10vh;
     color: white;
     transition:all 0.5s;
     transition-timing-function: ease-in;
     z-index: 1;
-    /* background-color: red; */
+    background-color: red;
 }
 .nav__black{
     background-color: #111;
@@ -22,7 +22,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* border-color: lightblue; */
+    border-color: lightblue;
 }
 .left__container ul{
     width: 140%;
@@ -31,7 +31,7 @@
     align-items: center;
     list-style: none;
     cursor: pointer;
-    /* border-color: lightblue; */
+    border-color: lightblue;
 }
 .right__container ul{
     width: 150%;
@@ -39,5 +39,72 @@
     justify-content: space-around;
     list-style: none;
     cursor: pointer;
-    /* border-color: lightgreen; */
+    border-color: lightgreen;
+} */
+
+.header__container{
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: hsl(0, 7%, 55%); */
+    /* background-color: rgb(20, 20, 20); */
+    background-color: transparent;
+    height: 10vh;
+    color: white;
+    transition:all 0.5s;
+    transition-timing-function: ease-in;
+    z-index: 1;
 }
+.nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 20px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: #111; */
+    z-index: 1;
+    transition:all 0.5s;
+    transition-timing-function: ease-in;
+}
+.nav__black {
+    background-color: #111;
+}
+.left__container {
+    margin-right:850px;
+    width: 35%;
+}
+.left__container ul{
+    /* width: 150%; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    cursor: pointer;
+    /* padding-left: 10px;
+    padding-right: 200px; */
+}
+.right__container ul{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    cursor: pointer;
+    padding-right: 100px;
+}
+/* .nav__logo {
+    position: fixed;
+    left: 20px;
+    width: 80px;
+    object-fit: contain;
+} */
+
+/* .nav__avatar {
+    position: fixed;
+    right: 20px;
+    width: 30px;
+    object-fit: contain;
+} */
