@@ -75,10 +75,10 @@
 }
 .left__container {
     margin-right:850px;
-    width: 35%;
+    /* width: 35%; */
 }
 .left__container ul{
-    /* width: 150%; */
+    width: 200%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -88,12 +88,12 @@
     padding-right: 200px; */
 }
 .right__container ul{
-    width: 70%;
+    width: 60%;
     display: flex;
     justify-content: space-between;
     list-style: none;
     cursor: pointer;
-    padding-right: 100px;
+    padding-right: 110px;
 }
 /* .nav__logo {
     position: fixed;
